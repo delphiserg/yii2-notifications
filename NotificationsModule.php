@@ -1,10 +1,10 @@
 <?php
 
-namespace machour\yii2\notifications;
+namespace delphiserg\yii2\notifications;
 
 use Yii;
 use Exception;
-use machour\yii2\notifications\models\Notification;
+use delphiserg\yii2\notifications\models\Notification;
 use yii\base\Module;
 use yii\db\Expression;
 
@@ -13,7 +13,7 @@ class NotificationsModule extends Module
     /**
      * @var string The controllers namespace
      */
-    public $controllerNamespace = 'machour\yii2\notifications\controllers';
+    public $controllerNamespace = 'delphiserg\yii2\notifications\controllers';
 
     /**
      * @var Notification The notification class defined by the application
@@ -50,7 +50,7 @@ class NotificationsModule extends Module
         parent::init();
 
 	    if (Yii::$app instanceof \yii\console\Application) {
-		    $this->controllerNamespace = 'machour\yii2\notifications\commands';
+		    $this->controllerNamespace = 'delphiserg\yii2\notifications\commands';
 	    }
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace machour\yii2\notifications\widgets;
+namespace delphiserg\yii2\notifications\widgets;
 
 use Yii;
 use yii\base\Exception;
@@ -17,7 +17,7 @@ use yii\web\JsExpression;
  * This widget should be used in your main layout file as follows:
  *
  * <code>
- * use machour\yii2\notifications\widgets\NotificationsWidget;
+ * use delphiserg\yii2\notifications\widgets\NotificationsWidget;
  *
  * NotificationsWidget::widget([
  *     'theme' => NotificationsWidget::THEME_GROWL,
@@ -30,7 +30,7 @@ use yii\web\JsExpression;
  * ]);
  * </code>
  *
- * @package machour\yii2\notifications\widgets
+ * @package delphiserg\yii2\notifications\widgets
  */
 class NotificationsWidget extends Widget
 {

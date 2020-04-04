@@ -1,8 +1,8 @@
 <?php
 
-namespace machour\yii2\notifications\models;
+namespace delphiserg\yii2\notifications\models;
 
-use machour\yii2\notifications\NotificationsModule;
+use delphiserg\yii2\notifications\NotificationsModule;
 use Yii;
 use yii\db\ActiveRecord;
 

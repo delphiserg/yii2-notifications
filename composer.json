@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "machour\\yii2\\notifications\\": ""
+            "delphiserg\\yii2\\notifications\\": ""
         }
     },
     "extra": {

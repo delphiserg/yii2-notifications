@@ -1,6 +1,6 @@
 <?php
 
-namespace machour\yii2\notifications\commands;
+namespace delphiserg\yii2\notifications\commands;
 
 use yii\console\Controller;
 

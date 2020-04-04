@@ -1,8 +1,8 @@
 <?php
 
-namespace machour\yii2\notifications\controllers;
+namespace delphiserg\yii2\notifications\controllers;
 
-use machour\yii2\notifications\models\Notification;
+use delphiserg\yii2\notifications\models\Notification;
 use Yii;
 use yii\helpers\Url;
 use yii\web\Controller;

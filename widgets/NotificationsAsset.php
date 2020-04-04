@@ -1,6 +1,6 @@
 <?php
 
-namespace machour\yii2\notifications\widgets;
+namespace delphiserg\yii2\notifications\widgets;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -8,7 +8,7 @@ use yii\web\AssetBundle;
 /**
  * Assets for the NotificationsWidget
  *
- * @package machour\yii2\notifications\widgets
+ * @package delphiserg\yii2\notifications\widgets
  */
 class NotificationsAsset extends AssetBundle
 {
